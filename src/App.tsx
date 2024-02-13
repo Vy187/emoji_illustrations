@@ -1,9 +1,9 @@
-import useState   from 'react';
+import Emoji from "./components/Emoji";
 
 const App = () => {
   return (
     <>
-    <main>hello</main>
+      <Emoji />
     </>
   )
 };
