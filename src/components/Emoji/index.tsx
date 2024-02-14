@@ -18,7 +18,12 @@ const Emoji = () => {
                         <figure className="eye eye-left"></figure>
                         <figure className="eye eye-right"></figure>
                     </section>
-                    <figure className="mouth"></figure>
+                    <section className='face-mask mouth'>
+                        <figure className='strap strap-top-left'></figure>
+                        <figure className='strap strap-top-right'></figure>
+                        <figure className='strap strap-bottom-left'></figure>
+                        <figure className='strap strap-bottom-right'></figure>
+                    </section>
                 </section>
             </article>
             <article className="emoji">
