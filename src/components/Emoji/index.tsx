@@ -1,3 +1,5 @@
+import './styles.css';
+
 const Emoji = () => {
     const content = (
         <main>
@@ -7,7 +9,7 @@ const Emoji = () => {
                         <figure className="eye eye-left"></figure>
                         <figure className="eye eye-right"></figure>
                     </section>
-                    <figure className="mouth"></figure>
+                    <figure className="smile"></figure>
                 </section>
             </article>
             <article className="emoji">
