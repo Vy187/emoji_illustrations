@@ -1,5 +1,6 @@
 :root {
-    --emoji-size: 200px;
+    --emoji-size    : 200px;
+    --mouth-height  : calc(var(--emoji-size) * .3);
 }
 
 main {
@@ -51,16 +52,22 @@ main {
     right: calc(var(--emoji-size) * .2);
 }
 
-.smile {
-    --mouth-height: calc(var(--emoji-size) * .3);
-
+.mouth {
     position        : absolute;
     bottom          : calc(var(--emoji-size) * .15);
     left            : calc(var(--emoji-size) * .5);
     transform       : translateX(-50%);
     background-color: black;
+}
+
+.smile {
     width           : calc(var(--emoji-size) * .6);
     height          : calc(var(--emoji-size) * .3);
     border-radius   : 5% 5% var(--mouth-height) var(--mouth-height);
 }
 
+.open-mouth {
+    width           : calc(var(--emoji-size) * .25);
+    height          : calc(var(--emoji-size) * .3);
+    border-radius   : 50%;
+}

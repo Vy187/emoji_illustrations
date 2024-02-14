@@ -9,7 +9,7 @@ const Emoji = () => {
                         <figure className="eye eye-left"></figure>
                         <figure className="eye eye-right"></figure>
                     </section>
-                    <figure className="smile"></figure>
+                    <figure className="smile mouth"></figure>
                 </section>
             </article>
             <article className="emoji">
@@ -27,7 +27,7 @@ const Emoji = () => {
                         <figure className="eye eye-left"></figure>
                         <figure className="eye eye-right"></figure>
                     </section>
-                    <figure className="mouth"></figure>
+                    <figure className="open-mouth mouth"></figure>
                 </section>
             </article>
         </main>
